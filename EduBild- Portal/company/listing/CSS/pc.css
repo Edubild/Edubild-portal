@@ -1,0 +1,46 @@
+/* Project file upload */
+#fileLabel {
+  border-color: black;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#uploadFile {
+  background-color: #ffffff;
+  filter: alpha(opacity=40);
+  opacity: 0.95;border:1px red dotted;
+}
+
+/* SW/HW and Percentage */
+[type='radio'] {
+display: none;
+}
+
+/* Profile pic */
+#imageUpload
+{
+    display: none;
+}
+
+#projectImage
+{
+    cursor: pointer;
+}
+
+#project-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#project-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.square {
+    border: 8px solid #8ba1b5;
+}

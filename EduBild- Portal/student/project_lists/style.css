@@ -1,0 +1,324 @@
+.catogory{
+  width: 20%;
+  float: left;
+  border: 2px solid #3B5998;
+  
+  height: 100vh;
+  display: inline;
+ 
+}
+.projects{
+  width: 80%;
+  float:right;
+  height: 100vh;
+  border: 2px solid #3B5998;
+  display: inline;
+  border-right: none;
+}
+.liveprojects{
+  height: 80px;
+  width: 100%;
+  border: 1px solid #3B5998;
+  background-color:#dfe6e9;
+}
+hr{
+  background-color: #3B5998;
+}
+.projectlist{
+  position: relative;
+  width: 65%;
+  height: 200px;
+  border: 1px solid gray;
+  margin-left: 15%;
+  margin-top: 40px;
+  box-shadow:3px 3px 3px 3px grey;
+}
+.image{
+  height:170px;
+  margin: 15px;
+  float: left;
+  border: 1px solid black;
+  width: 220px;
+}
+ .image img{
+  height:170px;
+  width: 219px;
+  padding-left: 0px;
+} 
+.desc{
+  height:140px;
+  margin: 15px;
+  float: left;
+  border-right: 1px solid #dfe6e9;
+  width: 260px;
+  position: relative;  
+}
+.soft{
+  border: 1px solid #3B5998;
+  width: 129px;
+  height: 30px;
+  align-items: center;
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 155px;
+}
+.soft h6{
+  padding-top: 4px;
+}
+.technology{
+  border: 1px solid #3B5998;
+  width: 130px;
+  margin-left: 0px;
+  height: 30px;
+  position: absolute;
+  margin-left: 394px;
+  margin-top: 155px;
+}
+.technology h6{
+  padding-top: 4px;
+}
+.applydate{
+  margin-left: 15px;
+  width: 230px;
+  height: 130px;
+  
+  margin-left: 540px;
+  margin-top: 15px;
+  
+}
+.applydate i{
+  float: right;
+
+}
+.applydate i:hover{
+  color: #3B5998;
+}
+.applydate h4{
+  padding-top: 40px;
+  text-align: center;
+  
+}
+.btn{
+  width: 160px;
+  height: 30px;
+  margin-top: 10px;
+  padding-top: 2px;
+  margin-left: 20px;
+  float: left;
+}
+
+.cart{
+  width: 30px;
+  height: 28px;
+  border: 1px solid green;
+  align-items: center;
+  float: right;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 730px;
+}
+.cart i{
+  margin-left: 3px;
+}
+.cart:hover{
+  opacity: .7;
+}
+.fa-shopping-cart{
+  margin-left:6px;
+  color: green;
+}
+@media screen and (max-width: 540px) {
+  .catogory{
+    width:25%;
+    margin-left: 0px;
+  }
+  .catogory .left{
+    margin-left: 0px;
+    padding-left: 0px;
+    align-items: start;
+  }
+  .catogory .row input{
+    padding-left: 0px;
+  }
+  .projects{
+    width: 75%;
+  }
+ 
+  .projectlist{
+    margin-left: 2px;
+    height: 610px;
+    width: 265px;
+    
+  }
+  .image{
+    margin-left: 17px;
+    margin-top: 1px;
+  }
+  .image img{
+    height:170px;
+    width: 219px;
+  }
+
+  .soft{
+    margin-left: 3px;
+    margin-top: 340px;
+  }
+ 
+  .technology{
+    margin-left: 132px;
+    margin-top: 340px;
+    width: 126px;
+  }
+  .applydate{
+    margin-left: 0px;
+ 
+    margin-top: 400px;
+    height: 140px;
+    position: absolute;
+    align-self: center;
+    margin-left: 10px;
+    width: 240px;
+
+  }
+  .btn{
+    margin-top: 195px;
+  }
+  .cart{
+    margin-left: 200px;
+    margin-top: 552px;
+
+    
+  }
+
+}
+.myclass{
+    width: 100%;
+    height: 100vh;
+  }
+
+  
+  .mylinks li a{
+    text-decoration: none;
+  }
+  
+  .mylinks{
+    list-style-type: none;
+  }
+  
+  .footer{
+      background: #f5f2f2;
+      color: black;
+      
+      .links{
+        ul {list-style-type: none;}
+        li a{
+          color: white;
+          transition: color .2s;
+          &:hover{
+            text-decoration:none;
+            color:#4180CB;
+            }
+        }
+      }  
+      .about-company{
+        i{font-size: 25px;}
+        a{
+          color:white;
+          transition: color .2s;
+          &:hover{color:#4180CB}
+        }
+      } 
+      .location{
+        i{font-size: 18px;}
+      }
+      .copyright p{border-top:1px solid rgba(245, 243, 243, 0.1);} 
+    }
+    
+    ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+    
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+    
+    
+    /* footer social icons */
+    
+    .social-network a.icoFacebook:hover {
+      background-color: #3B5998;
+    }
+    
+    .social-network a.icoTwitter:hover {
+      background-color: #007bb7;
+    }
+    .social-network a.icoInstagram:hover {
+      background-color: #007bb7;
+    }
+    .social-network a.icoLinkedin:hover {
+      background-color: #007bb7;
+    }
+    
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoTwitter:hover i,
+    .social-network a.icoInstagram:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+    
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+    
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+    }
+    
+    .social-circle li i {
+      margin: 0;
+      line-height: 30px;
+      text-align: center;
+    }
+    
+    .social-circle li a:hover i,
+    .triggeredHover {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    
+    .social-circle i {
+      color: #595959;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+    
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+  
+  
+    
